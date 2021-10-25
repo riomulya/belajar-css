@@ -1,0 +1,22 @@
+.satu{
+    width: 600px;
+    height: 300px;
+}
+div{
+    background:white 50px 50px;
+    overflow: scroll;
+}
+.satu{
+    color: blue;
+    text-align: right;
+    font-weight: bold;
+}
+.dua{
+    color: green;
+    text-align: left;
+    font-weight: bold;
+}
+.tiga{
+    color: red;
+    font-weight: bold;
+}
