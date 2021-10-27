@@ -1,0 +1,13 @@
+.div2{
+    background-color: white;
+    width: 680px;
+    height: 550px;
+    float: right;
+    margin-right: 15px;
+    text-align: right;
+    text-decoration: solid;
+}
+p{
+    font-size: small;
+    font-weight: bold;
+}
