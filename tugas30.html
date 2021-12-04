@@ -13,8 +13,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
-        nav {
-            margin-left: 5px;
+        .navbar {
+            margin-left: 10px;
+        }
+
+        .menu {
+            margin-right: 100px;
         }
 
         p {
@@ -25,24 +29,35 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <div class="nav-wrapper">
             <a href="#" class="material-icons">more_vert</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="menu" href="#">Menu</a></li>
+            </ul>
         </div>
     </nav>
-    <nav>
-        <div class="card-panel blue-grey">
-            <div><span style="font-size: x-large;">Belajar materialize css</span>
-                <p style="text-align:left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolor
-                    quisquam incidunt voluptas,
-                    totam
-                    blanditiis labore reiciendis. Recusandae non corrupti labore? Vero eos, expedita facilis labore,
-                    dolor
-                    sapiente explicabo necessitatibus nisi deserunt quaerat nihil, corrupti quos. Fugit iusto saepe
-                    assumenda doloribus, quas, sapiente tempore placeat eaque fugiat quam consectetur laboriosam!</p>
+    <div class="row">
+        <div class="col s12">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">Belajar Materialize CSS</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis ex a saepe
+                        consequatur at repudiandae amet asperiores. Minima repellat tenetur vero eius cumque maxime! Eos
+                        culpa assumenda esse voluptatum reiciendis aliquid dolor earum, eveniet autem, animi quaerat.
+                        Deleniti incidunt ipsa expedita consequuntur autem rem fuga similique tempore perferendis ipsam
+                        fugit, quia vitae, quos eum laborum iusto temporibus laudantium. Blanditiis enim, esse
+                        voluptatem laboriosam nam non deleniti dignissimos provident natus. Veniam cum id quod nisi
+                        commodi ex obcaecati exercitationem distinctio. Esse odio reiciendis error voluptates officia
+                        alias corporis minus fugit, dolorum ullam quas aspernatur, asperiores velit laborum vitae
+                        praesentium enim?</p>
+                </div>
+                <div class="card-action">
+                    <a class="waves-effect waves-light btn">button</a>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 </body>
 
 </html>
