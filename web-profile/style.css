@@ -1,0 +1,18 @@
+.footer {
+  font-family: "Roboto Mono", monospace;
+}
+header {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(gambar1.jpg);
+  background-size: cover;
+  height: 500px;
+}
+.carousel {
+  height: 500px;
+  width: 700px;
+}
+
+.icon {
+  color: rgb(126, 83, 207);
+}
